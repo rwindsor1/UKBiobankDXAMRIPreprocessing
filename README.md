@@ -4,7 +4,8 @@ Code to pre-process whole body scans (DXA, MRI) for experiments in the paper 'Se
 
 Please see our paper [here](https://arxiv.org/abs/2107.06652). The full code release for this paper will be made available shortly.
 
-If you use this code in your own work, please cite the following:
+You are welcome to use this code either to reproduce the results of our experiments or for your own research. 
+If you do, please cite the following:
 
 Windsor, R., Jamaludin, A., Kadir, T. ,Zisserman, A. "Self-Supervised Multi-Modal Alignment For Whole Body Medical Imaging" 
 In: Proceedings of 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2021
@@ -22,6 +23,10 @@ bibtex:
 }
 ```
 
+The preprocessing occurs in 3 stages:
+1) Download the raw DXA and MRI DICOMS from the UK Biobank servers.
+2) Extract and process the files (and stitch the MRI scan parts together).
+3) Extract the mid-coronal slices from the MRI scans to reduce storage.
 
 ## Downloading Raw DICOMs
 The raw data for this is extracted from the [UK Biobank](https://www.ukbiobank.ac.uk/). We use whole body DXA images (field ID 20158) & Dixon technique MRI (field ID 20201). Please note that accessing this data requires an application to the Biobank (see [here](https://www.ukbiobank.ac.uk/enable-your-research/register) for more information).
