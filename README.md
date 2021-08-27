@@ -49,8 +49,8 @@ However, since SpineNetV2 is not currently publically available, we will find th
 the scan by finding the centre of mass of the coronal slices intensity histogram in the fat 
 scan. For training-time augmentation, we also extract 5 neighbouring slices on each side (with 2 slices spacing between):
 
-![images/coronal__intensity_hist.png](The coronal slice intensity histogram)
-![images/slices.png](The extracted slices)
+![The coronal slice intensity histogram](images/coronal__intensity_hist.png)
+![The extracted slices](images/slices.png)
 
 This is done by executing the following command
 `python extract_mri_mid_cor_slices.py -i /work/rhydian/UKBB_Downloads/mris-processed/ -o /work/rhydian/UKBB_Downloads/mri-mid-corr-slices/`
