@@ -11,6 +11,7 @@ Windsor, R., Jamaludin, A., Kadir, T. ,Zisserman, A. "Self-Supervised Multi-Moda
 In: Proceedings of 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2021
 
 bibtex:
+```
 @inproceedings{Windsor21SelfSupervisedAlignment,
   author    = {Rhydian Windsor and
                Amir Jamaludin and
@@ -20,6 +21,7 @@ bibtex:
   booktitle = {MICCAI},
   year      = {2021}
 }
+```
 
 
 ## Downloading Raw DICOMs
