@@ -1,0 +1,7 @@
+
+__pycache__/
+slurm_jobs_error
+slurm_jobs_out
+*.out
+.ukbkey
+
