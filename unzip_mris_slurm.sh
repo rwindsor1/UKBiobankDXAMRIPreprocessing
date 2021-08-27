@@ -1,5 +1,5 @@
 #! /bin/bash
-#SBATCH --job-name=stich_decile
+#SBATCH --job-name=stitch_decile
 #SBATCH --nodes=1 --ntasks=1
 #SBATCH --time="96:00:00"
 #SBATCH --output='slurm_logs/stitch_decile_%A_%a.out'
