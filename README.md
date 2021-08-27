@@ -47,7 +47,7 @@ In the paper this is done by first detecting the spine in the scans using
 a mid spine coronal slice.
 However, since SpineNetV2 is not currently publically available, we will find the centre of
 the scan by finding the centre of mass of the coronal slices intensity histogram in the fat 
-scan. For training-time augmentation, we also extract 5 neighbouring slices on each side (with 2 slices spacing between):
+scan. For training-time augmentation, we also extract 5 neighbouring slices on each side (with 2 slices of spacing between each):
 
 ![The coronal slice intensity histogram](images/coronal_intensity_hist.png)
 ![The extracted slices](images/slices.png)
