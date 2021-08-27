@@ -2,6 +2,26 @@
 
 Code to pre-process whole body scans (DXA, MRI) for experiments in the paper 'Self-Supervised Multi-Modal Alignment For Whole Body Medical Imaging'. This code can also be used as pre-processing for other studies which rely on the UK Biobank DXA/Dixon MR datasets. 
 
+Please see our paper here. The full code release for this paper will be made available shortly.
+[Paper](https://arxiv.org/abs/2107.06652)
+
+If you use this code in your own work, please cite the following:
+
+Windsor, R., Jamaludin, A., Kadir, T. ,Zisserman, A. "Self-Supervised Multi-Modal Alignment For Whole Body Medical Imaging" 
+In: Proceedings of 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2021
+
+bibtex:
+@inproceedings{Windsor21SelfSupervisedAlignment,
+  author    = {Rhydian Windsor and
+               Amir Jamaludin and
+               Timor Kadir and
+               Andrew Zisserman},
+  title     = {Self-Supervised Multi-Modal Alignment for Whole Body Medical Imaging},
+  booktitle = {MICCAI},
+  year      = {2021}
+}
+
+
 ## Downloading Raw DICOMs
 The raw data for this is extracted from the [UK Biobank](https://www.ukbiobank.ac.uk/). We use whole body DXA images (field ID 20158) & Dixon technique MRI (field ID 20201). Please note that accessing this data requires an application to the Biobank (see [here](https://www.ukbiobank.ac.uk/enable-your-research/register) for more information).
 
