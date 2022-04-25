@@ -2,7 +2,7 @@
 
 Code to pre-process whole body scans (DXA, MRI) for experiments in the paper 'Self-Supervised Multi-Modal Alignment For Whole Body Medical Imaging'. This code can also be used as pre-processing for other studies which rely on the UK Biobank DXA/Dixon MR datasets. 
 
-Please see our paper [here](https://arxiv.org/abs/2107.06652). The full code release for this paper will be made available shortly. You are welcome to use this code either to reproduce the results of our experiments or for data preprocessing in your own research. 
+Please see our paper [here](https://arxiv.org/abs/2107.06652). The full code release for this paper is available [here](https://github.com/rwindsor1/biobank-self-supervised-alignment). You are welcome to use this code either to reproduce the results of our experiments or for data preprocessing in your own research. 
 If you do, please cite the following:
 
 Windsor, R., Jamaludin, A., Kadir, T. ,Zisserman, A. "Self-Supervised Multi-Modal Alignment For Whole Body Medical Imaging" 
